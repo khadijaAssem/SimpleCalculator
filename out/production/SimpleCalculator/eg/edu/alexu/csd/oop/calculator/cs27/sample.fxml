@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eg.edu.alexu.csd.oop.calculator.cs27.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane fx:id="pane" onKeyTyped="#handle" prefHeight="269.0" prefWidth="577.0">
+         <children>
+            <AnchorPane prefHeight="269.0" prefWidth="577.0">
+               <children>
+
+                  <AnchorPane layoutX="11.0" layoutY="39.0" prefHeight="225.0" prefWidth="231.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="335.0" AnchorPane.topAnchor="39.0">
+                     <children>
+                        <Button layoutY="36.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="1" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="44.0" layoutY="36.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="2" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="88.0" layoutY="36.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="3" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutY="81.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="4" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="44.0" layoutY="81.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="5" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="88.0" layoutY="81.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="6" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutY="126.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="7" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="44.0" layoutY="126.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="8" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="88.0" layoutY="126.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="9" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="44.0" layoutY="171.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="0" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="139.0" layoutY="81.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="+" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="139.0" layoutY="126.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="-" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="187.0" layoutY="126.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="x" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="188.0" layoutY="81.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="÷" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="139.0" layoutY="36.0" mnemonicParsing="false" onAction="#Delete" prefHeight="43.0" prefWidth="42.0" text="Del" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="187.0" layoutY="36.0" mnemonicParsing="false" onAction="#AC" prefHeight="43.0" prefWidth="42.0" text="AC" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutY="171.0" mnemonicParsing="false" onAction="#ClickedNoOrOp" prefHeight="43.0" prefWidth="42.0" text="." textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button fx:id="equals" layoutX="139.0" layoutY="171.0" mnemonicParsing="false" onAction="#Evaluate" onKeyPressed="#Evaluate" onKeyTyped="#Evaluate" prefHeight="43.0" prefWidth="90.0" text="=" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                        <Button layoutX="88.0" layoutY="171.0" mnemonicParsing="false" onAction="#Ans" prefHeight="43.0" prefWidth="50.0" text="ANS" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect></Button>
+                     </children>
+                  </AnchorPane>
+                  <TextField fx:id="TfOperation" layoutX="14.0" layoutY="14.0" onKeyPressed="#handle" prefHeight="54.0" prefWidth="231.0" AnchorPane.bottomAnchor="201.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="332.0" AnchorPane.topAnchor="14.0">
+                     <font>
+                        <Font name="Calibri" size="24.0" />
+                     </font>
+                  </TextField>
+                  <AnchorPane layoutX="280.0" layoutY="12.0" prefHeight="245.0" prefWidth="327.0" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="280.0" AnchorPane.rightAnchor="-9.0" AnchorPane.topAnchor="12.0">
+                     <children>
+                        <TextArea fx:id="History" editable="false" layoutX="87.0" layoutY="71.0" prefHeight="122.0" prefWidth="193.0">
+                           <font>
+                              <Font name="Calibri" size="13.0" />
+                           </font>
+                        </TextArea>
+                        <Button layoutX="106.0" layoutY="201.0" mnemonicParsing="false" onAction="#Clear" prefHeight="36.0" prefWidth="154.0" text="Clear History Window" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect>
+                        </Button>
+                        <Button layoutX="55.0" layoutY="14.0" mnemonicParsing="false" onAction="#Current" prefHeight="43.0" prefWidth="90.0" text="Current" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect>
+                        </Button>
+                        <Button layoutX="230.0" layoutY="14.0" mnemonicParsing="false" onAction="#Save" prefHeight="43.0" prefWidth="60.0" text="Save" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect>
+                        </Button>
+                        <Button layoutX="153.0" layoutY="14.0" mnemonicParsing="false" onAction="#Load" prefHeight="43.0" prefWidth="60.0" text="Load" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect>
+                        </Button>
+                        <Button layoutX="34.0" layoutY="98.0" mnemonicParsing="false" onAction="#Prev" prefHeight="43.0" prefWidth="42.0" text="^" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect>
+                        </Button>
+                        <Button layoutX="34.0" layoutY="150.0" mnemonicParsing="false" onAction="#next" prefHeight="43.0" prefWidth="42.0" text="˅" textFill="#2b3167">
+                           <font>
+                              <Font name="Cambria Bold Italic" size="14.0" />
+                           </font>
+                           <effect>
+                              <Lighting bumpInput="$null">
+                                 <light>
+                                    <Light.Distant color="#ffdcdc" />
+                                 </light>
+                              </Lighting>
+                           </effect>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <Label fx:id="Ans" layoutX="189.0" layoutY="25.0" prefHeight="43.0" prefWidth="143.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+               </children>
+               <effect>
+                  <Lighting bumpInput="$null">
+                     <light>
+                        <Light.Distant color="#ececec" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </AnchorPane>
+         </children>
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" color="WHITE" height="5.93" radius="0.9824999999999999" width="0.0" />
+         </effect>
+      </Pane>
+   </children>
+</GridPane>
